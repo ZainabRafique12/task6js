@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Number Finder Project</title>
+    <link rel="stylesheet" href="./style3.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Number Finder Project</h1>
+
+        <div class="card">
+            <h3>Scenario 1: Find numbers from array</h3>
+            <p>Enter Numbers in array:</p>
+            <input type="text" id="arrayInput" placeholder="Eg: 10, 20, 30, 40">
+            <p>Targeted number in list/array:</p>
+            <input type="number" id="targetNumber" placeholder="Eg: 10">
+            <button onclick="findInArray()">Click Here for result</button>
+            <div id="arrayResult" class="result"></div>
+        </div>
+
+        <hr>
+
+        <div class="card">
+            <h2>Scenario 2: Conditions (Int/Float)</h2>
+            <p>Input Number:</p>
+            <input type="number" id="singleInput" step="any" placeholder="Eg: 5 ya 5.5">
+            <button onclick="findNextValue()">Calculate</button>
+            <div id="singleResult" class="result"></div>
+        </div>
+    </div>
+
+    <script src="script3.js"></script>
+</body>
+</html>
